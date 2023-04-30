@@ -64,13 +64,17 @@ public class Pizza {
         }
         // your code goes here
 
-    public void addTakeaway(){
-        if(isPaperBadAdded == false){
+    public void addTakeaway() {
+        if (isPaperBadAdded == false) {
             this.totalprice = totalprice + paperbagprice;
             isPaperBadAdded = true;
         }
-        // your code goes here
     }
+
+    public int getPrice(){
+        return totalprice;
+        }
+        // your code goes here
 
     public String getBill(){
         if(isBillGenerated == false){
