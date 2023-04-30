@@ -38,13 +38,13 @@ public class Pizza {
         isPaperBadAdded = false;
         isToppingsAdded = false;
 
+        totalprice = baseprice;
+
+
         bill = "Base Price Of The Pizza: "+baseprice + "\n";
         // your code goes here
     }
 
-    public int getPrice(){
-        return totalprice;
-    }
 
     public void addExtraCheese() {
         if (isCheeseAdded == false) {
